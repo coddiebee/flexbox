@@ -1,0 +1,67 @@
+body {
+  padding-bottom: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background: pink;
+  margin: 5px;
+  display: inline-flex;
+
+}
+
+#container1 {
+  width:80%;
+  border: solid 3px black;
+  height: 300px;
+  display: inline-flex;
+  position: relative;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  flex-direction: column;
+  border: solid 3px black;
+  vertical-align: top;
+  display: inline-flex;
+
+}
+
+.content {
+}
+
+.footer {
+  background: cadetblue;
+  height: 50px;
+  text-align: center;
+}
+
+
+/** media-query **/
+/* When screen size is less than 500px,
+   we change the flex-direction from row
+   to column */
+#container3 {
+  width: 80%;
+  border: solid 1px black;
+  padding: 1em;
+  display: inline-block;
+}
+
+.some-text {
+  background: lightgray;
+  margin: 5px;
+}
+
+@media (max-width: 500px) {
+  #container3 {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,76 @@
+<html>
+<head>
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+  <section id="introduction">
+    <h4>Hey guys, let's talk flex!</h4>
+    <p>Flexbox was designed for 1D layout positioning</p>
+    <p>When working with flex, always think in terms of two axes - main axis and cross axis (or xy-axis)</p>
+  </section>
+  <hr>
+
+  <section id="basic">
+    <pre>justify-content (main-axis)</pre>
+    <pre>align-items (cross-axis)</pre>
+    <pre>"flex-start, flex-end, center"</pre>
+    <pre>flex-direction: row / column</pre>
+    <pre>works well with margin</pre>
+    <div id="container1">
+      <div class="box1">
+        <div class="box"></div>
+      </div>
+      <div class="box2">
+        <div class="box"></div>
+      </div>
+      <div class="box3">
+        <div class="box"></div>
+      </div>
+      <div class="box4">
+        <div class="box"></div>
+      </div>
+       
+        
+    </div>
+  </section>
+  <hr>
+
+  <section id="grow">
+    <pre>inline-flex</pre>
+    <pre>flex-grow</pre>
+    <div class="card">
+      <div class="content">The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful..</div>
+      <div class="footer">A</div>
+    </div>
+
+    <div class="card">
+      <div class="content">Hello</div>
+      <div class="footer">B</div>
+    </div>
+
+    <div class="card">
+      <div class="content">The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model.</div>
+      <div class="footer">C</div>
+    </div>
+  </section>
+  <hr>
+
+  <section id="media-query">
+    <pre>float</pre>
+    <div id="container3">
+      <div class="some-text">
+        Another vital area of understanding is how flexbox makes no assumption about the writing mode of the document.
+      </div>
+      <div class="some-text">
+        In the past, CSS was heavily weighted towards horizontal and left-to-right writing modes. Modern layout methods encompass the range of writing modes and so we no longer assume that a line of text will start at the top left of a document and run towards the right hand side, with new lines appearing one under the other.
+      </div>
+      <div class="some-text">
+        You can read more about the relationship between flexbox and the Writing Modes specification in a later article, however the following description should help explain why we do not talk about left and right and top and bottom when we describe the direction that our flex items flow in.
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
